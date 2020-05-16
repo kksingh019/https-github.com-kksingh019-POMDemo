@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43607" started-at="2020-05-16T11:51:47 IST" finished-at="2020-05-16T11:52:31 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43607" started-at="2020-05-16T11:51:47 IST" finished-at="2020-05-16T11:52:31 IST">
+      <class name="com.TestCases.OrangeHRM_Login_TestCase">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.TestCases.OrangeHRM_Login_TestCase@34cd072c]" name="Start" is-config="true" duration-ms="14741" started-at="2020-05-16T11:51:47 IST" finished-at="2020-05-16T11:52:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.TestCases.OrangeHRM_Login_TestCase@34cd072c]" name="Login" duration-ms="2281" started-at="2020-05-16T11:52:02 IST" finished-at="2020-05-16T11:52:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.TestCases.OrangeHRM_Login_TestCase@34cd072c]" name="teardown" is-config="true" duration-ms="6309" started-at="2020-05-16T11:52:04 IST" finished-at="2020-05-16T11:52:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TestCases.OrangeHRM_Login_TestCase -->
+      <class name="com.TestCases.OrangeHRM_Admin_TestCase">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.TestCases.OrangeHRM_Admin_TestCase@7a1ebcd8]" name="Start" is-config="true" duration-ms="13034" started-at="2020-05-16T11:52:11 IST" finished-at="2020-05-16T11:52:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="Login()[pri:2, instance:com.TestCases.OrangeHRM_Admin_TestCase@7a1ebcd8]" name="Login" duration-ms="3598" started-at="2020-05-16T11:52:24 IST" finished-at="2020-05-16T11:52:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Admin()[pri:0, instance:com.TestCases.OrangeHRM_Admin_TestCase@7a1ebcd8]" name="Admin" duration-ms="2691" started-at="2020-05-16T11:52:27 IST" depends-on-methods="com.TestCases.OrangeHRM_Admin_TestCase.Login" finished-at="2020-05-16T11:52:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Admin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.TestCases.OrangeHRM_Admin_TestCase@7a1ebcd8]" name="teardown" is-config="true" duration-ms="889" started-at="2020-05-16T11:52:30 IST" finished-at="2020-05-16T11:52:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.TestCases.OrangeHRM_Admin_TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
